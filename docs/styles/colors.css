@@ -1,0 +1,30 @@
+body {
+    background-color: #292929;
+    color: #cfcfcf;
+}
+p {
+    color: #cfcfcf;
+}
+h2 {
+    color: #a631a8;
+}
+
+/* unvisited link */
+a:link {
+  color: #9fa1cc;
+}
+
+/* visited link */
+a:visited {
+  color: #7b7c9e;
+}
+
+/* mouse over link */
+a:hover {
+  color: #bdc0f2;
+}
+
+/* selected link */
+a:active {
+  color: #7278ed;
+}

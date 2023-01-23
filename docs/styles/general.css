@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+	padding-top: 80px;
+    padding-bottom: 1000px;
+}
+main-content {
+	background-color: darkgray;
+	z-index: 10;
+}

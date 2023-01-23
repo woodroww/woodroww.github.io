@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Matt</title>
+    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <script>
+        window.onload = function () {
+            fetch('navbar.html').then(function (response) {
+                return response.text();
+            }).then(function (html) {
+                document.getElementById("nav-placeholder").innerHTML = html;
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div id="nav-placeholder"></div>
+    </div>
+
+    <div class="main-content">
+        <h1>Advent of Code</h1>
+    </div>
+    <img src="img/aoc.jpg" alt="aoc days" width="562">
+    <img src="img/day14_regolith_reservoir.jpg" alt="aoc days" width="562">
+    <img src="img/day18_boiling_boulders.jpg" alt="aoc days" width="562">
+    <img src="img/day23_unstable_diffusion.jpg" alt="aoc days" width="562">
+</body>
+
+</html>

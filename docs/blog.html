@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Matt</title>
+    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <script>
+        window.onload = function () {
+            fetch('navbar.html').then(function (response) {
+                return response.text();
+            }).then(function (html) {
+                document.getElementById("nav-placeholder").innerHTML = html;
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div id="nav-placeholder"></div>
+    </div>
+
+    <div class="main-content">
+        <h1>Blog</h1>
+        My name is Matt. This is my blog.
+    </div>
+</body>
+
+</html>
